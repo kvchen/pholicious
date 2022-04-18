@@ -1,4 +1,3 @@
-import "normalize.css";
 import "../css/index.css";
 
 import HeroSection from "../components/hero/HeroSection.react";
