@@ -1,9 +1,12 @@
 import "../css/index.css";
 
+import { useStaticQuery, graphql } from "gatsby";
+
 import HeroSection from "../components/hero/HeroSection.react";
 import LocationSection from "../components/location/LocationSection.react";
 import FooterSection from "../components/footer/FooterSection.react";
-import { useStaticQuery, graphql } from "gatsby";
+import GallerySection from "../components/gallery/GallerySection.react";
+import RemodelBannerSection from "../components/hero/RemodelBannerSection.react";
 
 export default function IndexPage() {
   const data = useStaticQuery(graphql`
@@ -19,8 +22,10 @@ export default function IndexPage() {
   return (
     <main>
       <title>{data.site.siteMetadata.title}</title>
+      <RemodelBannerSection />
       <HeroSection />
       <LocationSection />
+      {/* <GallerySection /> */}
       <FooterSection />
     </main>
   );
