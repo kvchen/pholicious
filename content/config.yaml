@@ -8,13 +8,20 @@ business:
     - "Lake Forest, CA 92630"
   phoneNumber: (949) 345-1282
   hours:
-    - Sun 10:00 am - 8:00 pm
-    - Mon 10:00 am - 8:00 pm
-    - Tue 10:00 am - 8:00 pm
-    - Wed 10:00 am - 8:00 pm
-    - Thu 10:00 am - 8:00 pm
-    - Fri 10:00 am - 8:00 pm
-    - Sat 10:00 am - 8:00 pm
+    - Sun 10:30 am - 8:30 pm
+    - Mon 10:30 am - 8:30 pm
+    - Tue 10:30 am - 8:30 pm
+    - Wed 10:30 am - 8:30 pm
+    - Thu 10:30 am - 8:30 pm
+    - Fri 10:30 am - 8:30 pm
+    - Sat 10:30 am - 8:30 pm
+
+# Alert
+
+banner:
+  message: |
+    Our restaurant will be temporarily closed on June 7th.
+    Sorry for all the inconvenience, we appreciate your business.
 
 # Links to external pages
 
