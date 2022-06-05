@@ -1,54 +1,51 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal TypeScript starter
-</h1>
+# Pho-Tung Cafe
 
-## 🚀 Quick start
+Source files for publishing photungcafe.com.
 
-1.  **Create a Gatsby site.**
+## Development
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+1.  **Clone the repository.**
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+    Run `git clone git@github.com:kvchen/pholicious.git`.
 
-2.  **Start developing.**
+2.  **Install npm.**
 
-    Navigate into your new site’s directory and start it up.
+    Ensure you have `yarn` installed. For Windows, follow the instructions here:
+    https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
+
+3.  **Install dependencies.**
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    cd pholicious
+    yarn install
     ```
 
-3.  **Open the code and start customizing!**
+4.  **Start developing.**
 
-    Your site is now running at http://localhost:8000!
+    ```shell
+    cd pholicious/
+    yarn run develop
+    ```
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+5.  **Open the code and start customizing!**
 
-4.  **Learn more**
+    Open your browser and point it at http://localhost:8000.
+    You should see the website appear.
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+6.  **Deploy the site.**
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    After making changes, you can now deploy the site to production:
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    ```shell
+    yarn run deploy
+    ```
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+    Visit photungcafe.com and you should see the changes reflected after a few
+    minutes.
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+## Notes
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+A lot of options don't require code changes - you just have to update the
+contents in `content/config.yaml`. Then run `yarn run develop` to check that
+the changes do what you want, and `yarn run deploy` to push the changes to
+production.
