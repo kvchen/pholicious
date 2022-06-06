@@ -10,7 +10,7 @@ business:
   hours:
     - Sun 10:30 am - 8:30 pm
     - Mon 10:30 am - 8:30 pm
-    - Tue 10:30 am - 8:30 pm
+    - Tue Closed
     - Wed 10:30 am - 8:30 pm
     - Thu 10:30 am - 8:30 pm
     - Fri 10:30 am - 8:30 pm
@@ -19,9 +19,7 @@ business:
 # Alert
 
 banner:
-  message: |
-    Our restaurant will be temporarily closed on June 7th.
-    Sorry for all the inconvenience, we appreciate your business.
+  message: ~
 
 # Links to external pages
 
